@@ -38,6 +38,9 @@ filename="klein_bottle_pointcloud_new_400.txt"
 sed -i -e '1i400 0 0\' $filename
 sed -i -e '1iOFF\' $filename
 
+filename="senate104_edge_list.txt_0.68902_point_cloud.txt"
+sed -i -e '1i103 0 0\' $filename
+sed -i -e '1iOFF\' $filename
 filename="klein_bottle_pointcloud_new_900.txt"
 sed -i -e '1i900 0 0\' $filename
 sed -i -e '1iOFF\' $filename
